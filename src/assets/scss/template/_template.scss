@@ -1,0 +1,132 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background-color: $primary-color;
+  
+  .container {
+    background: transparent;
+  }
+
+  .columns {
+    padding-bottom: 0;
+  }
+
+  a{
+    color: orange;
+  }  
+
+  p {
+    color: $white;
+    padding-top: 15px;
+  }
+
+  .logo {
+    max-width: 60%;
+    width: 160px;
+    height: auto;
+  }
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.footer{
+  background-color: $white;
+  a{
+    color: $primary-color;
+    font-size: 12px;
+  }
+
+  .disclaimer p{
+    font-size: 10px;
+    color: $medium-gray;
+  }
+
+  .icon{
+    display: inline-block;
+    margin: 5px 5px;
+    Margin: 5px 5px;  // fallback for Outlook.com  
+    max-width: 32px;
+    height: auto;
+  }
+
+  .item-small{
+    margin-top: 10px;
+    Margin-top: 10px;  // fallback for Outlook.com  max-width: 32px;
+    height: auto;
+    width: 85px !important;
+  }
+  .item{
+    margin-top: 10px;
+    Margin-top: 10px;  // fallback for Outlook.com  max-width: 32px;
+    height: auto;
+    width: 145px !important;
+  }
+  
+  p.address {
+    margin-top: 5px;
+    Margin-top: 5px;  // fallback for Outlook.com  max-width: 32px;
+    font-size: 11px; 
+    text-align: center;  
+    a {
+      font-size: 11px; 
+    }
+  }   
+}
+
+.table-paid {
+  //outline: thin solid white;
+  th {
+    color: white;
+    table-layout: fixed;
+    max-width: 100%;
+    //font-size: 0px;
+    //line-height: 0px;
+    //padding: 5px;
+    //border: 1px solid white; 
+    p {
+      margin-top: 2px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      margin-bottom: 2px;
+      Margin-top: 2px;  // fallback for Outlook.com  max-width: 32px;
+      Margin-bottom: 2px;  // fallback for Outlook.com  max-width: 32px;
+      //font-size: 0px;
+      //line-height: 0px;
+    }
+  }
+}

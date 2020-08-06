@@ -1,1 +1,1 @@
-# nexpay-email-school_paid-table
+# nexpay-email
